@@ -1,0 +1,16 @@
+(footprint "Generic-Mounthole" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (property "Sheetfile" "UDB.kicad_sch")
+  (property "Sheetname" "")
+  (property "exclude_from_bom" "")
+  (attr exclude_from_pos_files exclude_from_bom)
+  (fp_text reference "MH2" (at 0 2) (layer "Dwgs.User") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp bffdf53b-8a8d-4ab9-9645-3e489de0aa31)
+  )
+  (fp_text value "Mount-M2" (at 0 -2) (layer "Dwgs.User") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 88b0099d-8412-48bc-acf9-167eeb7e8f83)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 3.500001 3.500001) (drill 2.2) (layers "*.Cu" "*.Mask") (tstamp 8e328575-dd7d-4eda-9fa0-9e3c53c81e70))
+)
